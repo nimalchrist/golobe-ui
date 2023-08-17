@@ -221,7 +221,7 @@ const Login = () => {
                       </Box>
                     </Box>
                   </Button>
-                  <Button component="a" href="http://localhost:3200/auth/login?by=facebook" target="_blank" rel="noopener noreferrer">
+                  <Button component="a" href="http://localhost:3200/auth/login?by=facebook" target="_self" rel="noopener noreferrer">
                     <Box
                       sx={{
                         width: "150px",
